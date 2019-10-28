@@ -4,7 +4,6 @@ import threading
 from cache import Cache
 from config import config
 from onedrive import OneDrive
-from utils import path_format
 
 
 od = OneDrive()

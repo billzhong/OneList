@@ -20,8 +20,8 @@ def favicon():
 @bp.route('/<path:path>')
 def catch_all(path):
     info = od.list_items_with_cache(
-        path_format(config.start_directory + '/' + path))
-
+        path_format(config.start_directory + '/' + path)
+    )
     if info.is_file:  # download
         return redirect(info.files[0]['download_url'])
 

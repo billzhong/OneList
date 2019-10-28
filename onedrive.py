@@ -17,7 +17,7 @@ class _ItemInfo:
         self.is_file = False
 
 
-class OneDrive():
+class OneDrive:
     _request_headers = {'User-Agent': 'ISV|MoeClub|OneList/1.0',
                         'Accept': 'application/json; odata.metadata=none'}
 
